@@ -22,6 +22,14 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/template_noop)
+"bV" = (
+/obj/machinery/stasis{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/turf/open/floor/iron/white/diagonal,
+/area/template_noop)
 "ca" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
@@ -35,6 +43,12 @@
 /area/template_noop)
 "cn" = (
 /turf/open/floor/iron,
+/area/template_noop)
+"cu" = (
+/obj/machinery/iv_drip,
+/obj/structure/window/spawner/west,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/white,
 /area/template_noop)
 "cC" = (
 /obj/machinery/chem_dispenser/fullupgrade,
@@ -86,6 +100,15 @@
 	},
 /turf/open/floor/iron/dark,
 /area/template_noop)
+"ef" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
 "eq" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -135,6 +158,13 @@
 /obj/machinery/vending/wardrobe/sec_wardrobe,
 /turf/open/floor/iron/herringbone,
 /area/template_noop)
+"fP" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/item/defibrillator/loaded,
+/turf/open/floor/iron/white/diagonal,
+/area/template_noop)
 "fY" = (
 /obj/structure/table/wood,
 /obj/item/modular_computer/laptop/preset/civilian,
@@ -157,6 +187,11 @@
 "hl" = (
 /obj/effect/turf_decal/tile/dark,
 /turf/open/floor/wood/tile,
+/area/template_noop)
+"hH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/structure/railing/corner,
+/turf/open/floor/plating/airless,
 /area/template_noop)
 "hS" = (
 /obj/structure/closet/l3closet/security,
@@ -283,6 +318,13 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/herringbone,
 /area/template_noop)
+"lK" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/spawner/random/structure/tank_holder,
+/turf/open/floor/plating/airless,
+/area/template_noop)
 "lL" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chaplain's Quarters"
@@ -290,6 +332,10 @@
 /obj/effect/mapping_helpers/airlock/access/all/service/chapel_office,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
+/area/template_noop)
+"lP" = (
+/obj/structure/sign/departments/holy/directional/east,
+/turf/open/floor/iron/white/corner,
 /area/template_noop)
 "lS" = (
 /obj/structure/fluff/divine/conduit,
@@ -341,6 +387,10 @@
 /obj/effect/mapping_helpers/airlock/access/all/medical/morgue,
 /turf/open/floor/iron/dark,
 /area/template_noop)
+"nv" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plating,
+/area/template_noop)
 "nz" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -379,6 +429,15 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/template_noop)
+"oi" = (
+/obj/machinery/door/airlock/external{
+	name = "External Walkway"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/template_noop)
 "oq" = (
 /obj/effect/turf_decal/tile/dark_red{
 	dir = 1
@@ -408,8 +467,26 @@
 /obj/item/pen,
 /turf/open/floor/iron/herringbone,
 /area/template_noop)
+"oN" = (
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/turf/open/floor/iron/white/diagonal,
+/area/template_noop)
+"oQ" = (
+/obj/structure/closet/crate/freezer/surplus_limbs,
+/obj/structure/window/spawner/west,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/white,
+/area/template_noop)
 "oR" = (
-/turf/open/floor/iron/white/corner,
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Medbay Maintenance"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/effect/turf_decal/siding/thinplating_new/light{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/template_noop)
 "oT" = (
 /obj/structure/dresser,
@@ -427,6 +504,10 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
+/area/template_noop)
+"pp" = (
+/obj/structure/sign/poster/contraband/random/directional/north,
+/turf/open/floor/plating,
 /area/template_noop)
 "px" = (
 /obj/structure/bodycontainer/morgue,
@@ -449,6 +530,13 @@
 /area/template_noop)
 "pS" = (
 /turf/open/floor/wood,
+/area/template_noop)
+"qn" = (
+/obj/structure/table/glass,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/turf/open/floor/iron/white/diagonal,
 /area/template_noop)
 "qG" = (
 /obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
@@ -574,6 +662,28 @@
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/white/textured_large,
 /area/template_noop)
+"ui" = (
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/iron/white/diagonal,
+/area/template_noop)
+"uo" = (
+/obj/structure/sign/departments/medbay/alt/directional/south,
+/turf/open/floor/iron,
+/area/template_noop)
+"uw" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 8
+	},
+/obj/machinery/door/airlock/medical{
+	name = "Surgical A"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/turf/open/floor/iron/white,
+/area/template_noop)
 "uy" = (
 /obj/machinery/medical_kiosk,
 /turf/open/floor/wood,
@@ -582,14 +692,16 @@
 /obj/machinery/door/airlock/medical{
 	name = "Medbay Lobby"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/general,
-/turf/open/floor/iron/white,
-/area/template_noop)
-"uX" = (
-/obj/machinery/door/airlock/medical{
-	name = "Medbay Lobby"
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "phalanxmedbaylobby"
 	},
 /turf/open/floor/iron/white/side,
+/area/template_noop)
+"uX" = (
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/structure/closet/secure_closet/medical3,
+/turf/open/floor/iron/white/diagonal,
 /area/template_noop)
 "vg" = (
 /obj/machinery/vending/cola,
@@ -597,6 +709,14 @@
 	dir = 6
 	},
 /turf/open/floor/wood,
+/area/template_noop)
+"vQ" = (
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/iron/white/diagonal,
 /area/template_noop)
 "vW" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -607,6 +727,10 @@
 	},
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/iron/herringbone,
+/area/template_noop)
+"wC" = (
+/obj/machinery/door/airlock/maintenance/external,
+/turf/open/floor/plating,
 /area/template_noop)
 "wH" = (
 /obj/machinery/door/airlock/hatch{
@@ -620,6 +744,28 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
+/area/template_noop)
+"xc" = (
+/obj/machinery/iv_drip,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/white,
+/area/template_noop)
+"xe" = (
+/obj/machinery/door/airlock/external{
+	name = "External Walkway"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
+/obj/effect/mapping_helpers/airlock/access/any/service/crematorium,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"xg" = (
+/obj/machinery/computer/operating,
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/turf/open/floor/iron/white/diagonal,
 /area/template_noop)
 "xk" = (
 /obj/effect/turf_decal/siding/wood{
@@ -692,6 +838,18 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/template_noop)
+"zw" = (
+/obj/machinery/vending/wardrobe/medi_wardrobe,
+/obj/effect/turf_decal/siding/blue/end{
+	dir = 4
+	},
+/obj/structure/window/spawner/east,
+/turf/open/floor/iron/white/small,
+/area/template_noop)
+"zy" = (
+/obj/effect/spawner/random/structure/tank_holder,
+/turf/open/floor/plating,
+/area/template_noop)
 "zO" = (
 /turf/open/floor/iron/chapel{
 	dir = 9
@@ -747,6 +905,9 @@
 /obj/effect/landmark/start/captain,
 /obj/effect/turf_decal/tile/dark_blue,
 /turf/open/floor/wood/tile,
+/area/template_noop)
+"CC" = (
+/turf/open/floor/plating/airless,
 /area/template_noop)
 "CM" = (
 /obj/effect/turf_decal/tile/dark_blue/half/contrasted{
@@ -888,6 +1049,16 @@
 /obj/effect/turf_decal/bot_red,
 /turf/open/floor/iron/herringbone,
 /area/template_noop)
+"GT" = (
+/obj/machinery/door/airlock/medical{
+	name = "Medbay Lobby"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "phalanxmedbaylobby"
+	},
+/turf/open/floor/iron/white,
+/area/template_noop)
 "Hk" = (
 /obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
 /obj/structure/frame/machine,
@@ -966,6 +1137,13 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/template_noop)
+"IX" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/iron/white/diagonal,
+/area/template_noop)
 "Jz" = (
 /obj/effect/turf_decal/siding/wood/end{
 	dir = 1
@@ -1016,6 +1194,19 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
+/area/template_noop)
+"MN" = (
+/obj/structure/window/spawner/west,
+/obj/vehicle/ridden/wheelchair{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/white,
+/area/template_noop)
+"MT" = (
+/obj/effect/spawner/random/structure/table_or_rack,
+/obj/item/toy/plush/carpplushie,
+/turf/open/floor/plating,
 /area/template_noop)
 "MV" = (
 /obj/structure/rack,
@@ -1101,6 +1292,17 @@
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/iron/dark/textured_large,
 /area/template_noop)
+"QN" = (
+/obj/structure/sign/departments/telecomms/directional/north,
+/turf/open/floor/iron,
+/area/template_noop)
+"QS" = (
+/obj/vehicle/ridden/wheelchair{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/white,
+/area/template_noop)
 "QX" = (
 /obj/effect/turf_decal/siding/thinplating_new,
 /obj/effect/turf_decal/siding/thinplating_new{
@@ -1127,13 +1329,22 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/iron/dark,
 /area/template_noop)
+"RA" = (
+/obj/machinery/rnd/production/techfab/department/medical,
+/turf/open/floor/iron/dark,
+/area/template_noop)
 "RE" = (
-/obj/effect/turf_decal/tile/dark_red{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/corner{
-	dir = 1
-	},
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/turf/open/floor/iron/white/diagonal,
+/area/template_noop)
+"RT" = (
+/obj/structure/table/optable,
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/item/defibrillator/loaded,
+/turf/open/floor/iron/white/diagonal,
 /area/template_noop)
 "Sm" = (
 /obj/effect/turf_decal/siding/wood{
@@ -1151,11 +1362,19 @@
 /turf/open/floor/iron,
 /area/template_noop)
 "SF" = (
-/obj/machinery/vending/wardrobe/medi_wardrobe,
-/obj/effect/turf_decal/siding/blue/end{
-	dir = 4
+/obj/structure/closet/crate/freezer/blood,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/white,
+/area/template_noop)
+"SO" = (
+/obj/machinery/door/airlock/medical{
+	name = "Medbay Staff Hall"
 	},
-/turf/open/floor/iron/white/small,
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "phalanxmedbaylobby"
+	},
+/turf/open/floor/iron/kitchen/herringbone,
 /area/template_noop)
 "Tn" = (
 /obj/machinery/computer/crew{
@@ -1180,6 +1399,21 @@
 "TM" = (
 /obj/structure/chair/office/light,
 /turf/open/floor/carpet/blue,
+/area/template_noop)
+"TX" = (
+/obj/structure/table/optable,
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/turf/open/floor/iron/white/diagonal,
+/area/template_noop)
+"Uy" = (
+/obj/effect/turf_decal/tile/dark_red{
+	dir = 1
+	},
+/obj/structure/sign/departments/security/directional/north,
+/turf/open/floor/iron/dark/corner{
+	dir = 1
+	},
 /area/template_noop)
 "UN" = (
 /obj/structure/closet/bombcloset/security,
@@ -1214,6 +1448,11 @@
 	dir = 5
 	},
 /turf/open/floor/mineral/silver,
+/area/template_noop)
+"VP" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/railing,
+/turf/open/floor/plating/airless,
 /area/template_noop)
 "We" = (
 /obj/machinery/computer/security,
@@ -1255,6 +1494,15 @@
 /obj/machinery/vending/drugs,
 /turf/open/floor/iron/smooth_large,
 /area/template_noop)
+"Xk" = (
+/obj/machinery/door/airlock/external{
+	name = "External Walkway"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/template_noop)
 "Xr" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -1287,8 +1535,26 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/template_noop)
+"XY" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
 "Ye" = (
 /turf/open/floor/carpet/blue,
+/area/template_noop)
+"Yt" = (
+/obj/machinery/door/airlock/external{
+	name = "External Walkway"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
+/obj/effect/mapping_helpers/airlock/access/any/service/crematorium,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/template_noop)
 "Zb" = (
 /obj/machinery/door/airlock/engineering/glass{
@@ -1320,6 +1586,16 @@
 /turf/open/floor/iron/chapel{
 	dir = 8
 	},
+/area/template_noop)
+"ZR" = (
+/obj/effect/turf_decal/siding/blue{
+	dir = 8
+	},
+/obj/machinery/door/airlock/medical{
+	name = "Surgical B"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/turf/open/floor/iron/white,
 /area/template_noop)
 "ZY" = (
 /obj/structure/altar_of_gods,
@@ -1911,31 +2187,255 @@ su
 su
 su
 su
-tz
-tz
-tz
-tz
-tz
-tz
-tz
 su
 su
 su
 su
 su
-tz
-tz
-tz
-tz
-tz
-tz
-tz
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
 su
 su
 su
 su
 "}
 (20,1,1) = {"
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+"}
+(21,1,1) = {"
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+"}
+(22,1,1) = {"
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+"}
+(23,1,1) = {"
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+"}
+(24,1,1) = {"
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+"}
+(25,1,1) = {"
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+su
+"}
+(26,1,1) = {"
+su
+su
+su
+su
+su
+su
+su
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+su
+su
+su
+su
+su
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+su
+su
+"}
+(27,1,1) = {"
 su
 su
 su
@@ -1950,24 +2450,24 @@ CM
 qG
 In
 tz
-su
-su
+cn
+cn
 su
 su
 su
 tz
-BE
-BE
-BE
-BE
-BE
+qn
+fP
+uX
 tz
+RE
+IX
+uX
 tz
-su
 su
 su
 "}
-(21,1,1) = {"
+(28,1,1) = {"
 su
 su
 su
@@ -1982,24 +2482,24 @@ sg
 ca
 ca
 Zb
-su
-su
+cn
+cn
 su
 su
 su
 tz
-BE
-BE
-BE
-BE
-BE
-BE
+TX
+vQ
+oN
 tz
-su
+RT
+ui
+oN
+tz
 su
 su
 "}
-(22,1,1) = {"
+(29,1,1) = {"
 su
 tz
 tz
@@ -2014,24 +2514,24 @@ ca
 Wj
 Hn
 tz
-su
-su
+QN
+cn
 su
 su
 su
 tz
-BE
-BE
-BE
-BE
-BE
-BE
+xg
+oN
+bV
 tz
-su
+xg
+oN
+bV
+tz
 su
 su
 "}
-(23,1,1) = {"
+(30,1,1) = {"
 su
 tz
 Gf
@@ -2046,24 +2546,24 @@ nV
 tz
 tz
 tz
-su
-su
+cn
+cn
 tz
 tz
 tz
 tz
 tz
-BE
-BE
-BE
-BE
-BE
+uw
 tz
 tz
-su
+tz
+ZR
+tz
+tz
+tz
 su
 "}
-(24,1,1) = {"
+(31,1,1) = {"
 su
 qP
 fY
@@ -2087,15 +2587,15 @@ nc
 tz
 BE
 BE
-BE
-BE
-BE
+yi
+yi
 BE
 tz
-su
-su
+lt
+tz
+tz
 "}
-(25,1,1) = {"
+(32,1,1) = {"
 su
 tz
 rP
@@ -2117,17 +2617,17 @@ Xc
 pH
 nb
 sY
+yi
 BE
 BE
 BE
 BE
-BE
-BE
+oR
+kQ
+MT
 tz
-su
-su
 "}
-(26,1,1) = {"
+(33,1,1) = {"
 gf
 tz
 tz
@@ -2149,17 +2649,17 @@ Rt
 pH
 PA
 tz
+yi
 BE
-BE
-BE
-BE
-BE
+oQ
 tz
 tz
-su
-su
+tz
+pp
+tz
+tz
 "}
-(27,1,1) = {"
+(34,1,1) = {"
 tz
 vW
 UN
@@ -2183,15 +2683,15 @@ cC
 tz
 BE
 BE
-BE
-BE
-BE
+SF
+tz
+kQ
+wC
+kQ
 tz
 su
-su
-su
 "}
-(28,1,1) = {"
+(35,1,1) = {"
 qP
 dB
 Ma
@@ -2215,15 +2715,15 @@ tz
 tz
 BE
 BE
-BE
-BE
-BE
+MN
+tz
+kQ
+tz
+tz
 tz
 su
-su
-su
 "}
-(29,1,1) = {"
+(36,1,1) = {"
 qP
 dB
 Ma
@@ -2245,17 +2745,17 @@ Pm
 pS
 uy
 tz
+yi
 BE
-BE
-BE
-BE
-BE
+QS
+tz
+kQ
+zy
 tz
 su
 su
-su
 "}
-(30,1,1) = {"
+(37,1,1) = {"
 tz
 vW
 JA
@@ -2271,23 +2771,23 @@ oD
 tz
 tz
 cn
-cn
+uo
 tz
 XE
 nz
 eq
 tz
+yi
 BE
-BE
-BE
-BE
-BE
+cu
+tz
+kQ
+ez
 tz
 su
 su
-su
 "}
-(31,1,1) = {"
+(38,1,1) = {"
 tz
 tz
 qP
@@ -2304,22 +2804,22 @@ tz
 im
 cn
 cn
-uX
+uR
 BE
 iM
 BE
-uR
+GT
 BE
 BE
-BE
-BE
-BE
+xc
+tz
+Xk
+tz
 tz
 su
 su
-su
 "}
-(32,1,1) = {"
+(39,1,1) = {"
 tz
 Hx
 fM
@@ -2345,13 +2845,13 @@ tz
 Nf
 tz
 tz
-BE
+kQ
 tz
 su
 su
 su
 "}
-(33,1,1) = {"
+(40,1,1) = {"
 qP
 dB
 Ma
@@ -2368,7 +2868,7 @@ dc
 cn
 cn
 cn
-uX
+uR
 BE
 xY
 BE
@@ -2377,13 +2877,13 @@ cm
 yi
 Tn
 tz
-BE
+kQ
 tz
 su
 su
 su
 "}
-(34,1,1) = {"
+(41,1,1) = {"
 qP
 dB
 Ma
@@ -2403,19 +2903,19 @@ cn
 tz
 tz
 tz
-tz
+SO
 gf
 UY
 yi
-SF
+zw
 tz
-tz
+oi
 gf
 su
 su
 su
 "}
-(35,1,1) = {"
+(42,1,1) = {"
 tz
 fL
 lF
@@ -2428,10 +2928,10 @@ tz
 Xr
 tz
 tz
-RE
+Uy
 To
 cn
-oR
+lP
 cn
 tz
 kl
@@ -2439,15 +2939,15 @@ Nv
 tD
 tD
 jc
+RA
 tz
-gf
-su
-su
+CC
+VP
 su
 su
 su
 "}
-(36,1,1) = {"
+(43,1,1) = {"
 gf
 tz
 tz
@@ -2471,15 +2971,15 @@ nl
 tz
 tz
 tz
-gf
-su
-su
-su
+tz
+tz
+CC
+VP
 su
 su
 su
 "}
-(37,1,1) = {"
+(44,1,1) = {"
 su
 tz
 Zf
@@ -2503,15 +3003,15 @@ Nv
 px
 px
 tz
-su
-su
-su
-su
+nv
+tz
+CC
+VP
 su
 su
 su
 "}
-(38,1,1) = {"
+(45,1,1) = {"
 su
 qP
 cN
@@ -2534,16 +3034,16 @@ nK
 Tx
 Tx
 Tx
-tz
-su
-su
-su
-su
+Yt
+kQ
+xe
+CC
+VP
 su
 su
 su
 "}
-(39,1,1) = {"
+(46,1,1) = {"
 su
 qP
 qP
@@ -2567,15 +3067,15 @@ Su
 Nv
 If
 tz
-su
-su
-su
-su
+tz
+gf
+CC
+VP
 su
 su
 su
 "}
-(40,1,1) = {"
+(47,1,1) = {"
 su
 su
 qP
@@ -2598,16 +3098,16 @@ Dg
 rM
 Nv
 tz
-gf
-su
-su
-su
-su
+tz
+lK
+CC
+hH
+ef
 su
 su
 su
 "}
-(41,1,1) = {"
+(48,1,1) = {"
 su
 su
 su
@@ -2631,15 +3131,15 @@ tz
 xk
 tz
 su
-su
-su
-su
+XY
+hH
+ef
 su
 su
 su
 su
 "}
-(42,1,1) = {"
+(49,1,1) = {"
 su
 su
 su
@@ -2661,17 +3161,17 @@ VE
 tz
 zV
 gh
-tz
 gf
-su
-su
+tz
+XY
+VP
 su
 su
 su
 su
 su
 "}
-(43,1,1) = {"
+(50,1,1) = {"
 su
 su
 su
@@ -2696,14 +3196,14 @@ hl
 sS
 tz
 gf
-su
+ef
 su
 su
 su
 su
 su
 "}
-(44,1,1) = {"
+(51,1,1) = {"
 su
 su
 su
@@ -2735,7 +3235,7 @@ su
 su
 su
 "}
-(45,1,1) = {"
+(52,1,1) = {"
 su
 su
 su
@@ -2767,7 +3267,7 @@ su
 su
 su
 "}
-(46,1,1) = {"
+(53,1,1) = {"
 su
 su
 su
@@ -2799,7 +3299,7 @@ su
 su
 su
 "}
-(47,1,1) = {"
+(54,1,1) = {"
 su
 su
 su
@@ -2831,7 +3331,7 @@ su
 su
 su
 "}
-(48,1,1) = {"
+(55,1,1) = {"
 su
 su
 su
@@ -2863,7 +3363,7 @@ su
 su
 su
 "}
-(49,1,1) = {"
+(56,1,1) = {"
 su
 su
 su
@@ -2880,230 +3380,6 @@ su
 gf
 dH
 gf
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-"}
-(50,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-"}
-(51,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-"}
-(52,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-"}
-(53,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-"}
-(54,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-"}
-(55,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-"}
-(56,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
 su
 su
 su
