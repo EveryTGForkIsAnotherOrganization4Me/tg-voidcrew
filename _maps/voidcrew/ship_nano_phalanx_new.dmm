@@ -4,6 +4,11 @@
 	dir = 1
 	},
 /area/template_noop)
+"aj" = (
+/obj/machinery/gibber,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/freezer,
+/area/template_noop)
 "aE" = (
 /obj/machinery/light/small/broken/directional/west,
 /turf/open/floor/plating,
@@ -26,6 +31,10 @@
 	pixel_y = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/template_noop)
+"bQ" = (
+/obj/structure/sign/departments/exam_room/directional/west,
+/turf/open/floor/catwalk_floor/flat_white,
 /area/template_noop)
 "bV" = (
 /obj/machinery/stasis{
@@ -62,6 +71,10 @@
 	dir = 1
 	},
 /area/template_noop)
+"cM" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/iron/kitchen/diagonal,
+/area/template_noop)
 "cN" = (
 /obj/machinery/computer/atmos_alert,
 /obj/effect/turf_decal/siding/thinplating_new/light,
@@ -84,6 +97,24 @@
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
+/area/template_noop)
+"de" = (
+/obj/effect/turf_decal/tile/green/half,
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_half,
+/area/template_noop)
+"dx" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron,
 /area/template_noop)
 "dB" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -145,6 +176,20 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/iron/dark,
 /area/template_noop)
+"eE" = (
+/obj/structure/bed/double,
+/obj/item/bedsheet/random/double,
+/obj/structure/curtain/bounty,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet/green,
+/area/template_noop)
+"eP" = (
+/obj/effect/turf_decal/siding/thinplating_new,
+/obj/machinery/door/airlock/silver{
+	name = "Kitchen"
+	},
+/turf/open/floor/iron/kitchen/diagonal,
+/area/template_noop)
 "eW" = (
 /obj/structure/chair/pew/right{
 	dir = 4
@@ -157,6 +202,16 @@
 /obj/structure/closet/secure_closet,
 /obj/effect/turf_decal/bot_red,
 /turf/open/floor/iron/herringbone,
+/area/template_noop)
+"fH" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/iron/cafeteria,
 /area/template_noop)
 "fL" = (
 /obj/machinery/recharger,
@@ -192,12 +247,53 @@
 "gh" = (
 /turf/open/floor/wood/tile,
 /area/template_noop)
+"gq" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/structure/table,
+/turf/open/floor/iron/cafeteria,
+/area/template_noop)
+"gy" = (
+/obj/structure/table,
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_y = 7
+	},
+/turf/open/floor/iron/kitchen/diagonal,
+/area/template_noop)
+"gD" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/template_noop)
+"gK" = (
+/obj/machinery/vending/dinnerware,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/freezer,
+/area/template_noop)
 "hb" = (
 /obj/machinery/computer/secure_data,
 /obj/effect/turf_decal/tile/dark_red/anticorner/contrasted{
 	dir = 4
 	},
 /turf/open/floor/iron,
+/area/template_noop)
+"hc" = (
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/green/half,
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/mid_joiner{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_half,
 /area/template_noop)
 "hl" = (
 /obj/effect/turf_decal/tile/dark,
@@ -207,6 +303,13 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/structure/railing/corner,
 /turf/open/floor/plating/airless,
+/area/template_noop)
+"hO" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/iron/cafeteria,
 /area/template_noop)
 "hS" = (
 /obj/structure/closet/l3closet/security,
@@ -323,6 +426,17 @@
 	dir = 1
 	},
 /area/template_noop)
+"jQ" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/structure/chair/stool/bar/directional/west,
+/turf/open/floor/iron/cafeteria,
+/area/template_noop)
+"kj" = (
+/obj/machinery/oven,
+/turf/open/floor/iron/kitchen/diagonal,
+/area/template_noop)
 "kl" = (
 /obj/machinery/vending/medical,
 /obj/effect/decal/cleanable/cobweb,
@@ -339,7 +453,6 @@
 /obj/machinery/door/airlock/science{
 	name = "Nanite Lab"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/science/general,
 /turf/open/floor/iron/dark/side,
 /area/template_noop)
 "kY" = (
@@ -428,7 +541,6 @@
 /obj/machinery/door/airlock/grunge{
 	name = "Morgue"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/morgue,
 /turf/open/floor/iron/dark,
 /area/template_noop)
 "nv" = (
@@ -482,8 +594,13 @@
 	name = "Telecomms-Armory"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/armory,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
 /turf/open/floor/iron/dark/textured_large,
+/area/template_noop)
+"nX" = (
+/mob/living/simple_animal/hostile/retaliate/goat{
+	name = "Pete"
+	},
+/turf/open/floor/iron/freezer,
 /area/template_noop)
 "oe" = (
 /obj/structure/chair/comfy{
@@ -549,7 +666,6 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Medbay Maintenance"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /obj/effect/turf_decal/siding/thinplating_new/light{
 	dir = 1
 	},
@@ -605,6 +721,11 @@
 "pS" = (
 /turf/open/floor/wood,
 /area/template_noop)
+"pV" = (
+/obj/machinery/door/firedoor,
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/plating,
+/area/template_noop)
 "qn" = (
 /obj/structure/table/glass,
 /obj/item/storage/backpack/duffelbag/med/surgery,
@@ -618,6 +739,20 @@
 	dir = 5
 	},
 /turf/open/floor/circuit,
+/area/template_noop)
+"qI" = (
+/turf/open/floor/iron/freezer,
+/area/template_noop)
+"qN" = (
+/obj/structure/bed/double{
+	dir = 1
+	},
+/obj/item/bedsheet/random/double{
+	dir = 1
+	},
+/obj/structure/curtain/bounty,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet/green,
 /area/template_noop)
 "qP" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -636,6 +771,12 @@
 "re" = (
 /obj/machinery/vending/wardrobe/chap_wardrobe,
 /turf/open/floor/wood/tile,
+/area/template_noop)
+"rh" = (
+/obj/machinery/door/airlock/shuttle/glass{
+	name = "Primary Tool Storage"
+	},
+/turf/open/floor/iron,
 /area/template_noop)
 "rw" = (
 /obj/machinery/nanite_programmer,
@@ -701,8 +842,13 @@
 /obj/machinery/door/airlock/medical{
 	name = "Pharmacy"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/smooth_large,
+/area/template_noop)
+"tw" = (
+/obj/effect/turf_decal/siding/thinplating_new,
+/obj/structure/flora/bush/flowers_br,
+/obj/structure/railing,
+/turf/open/floor/grass,
 /area/template_noop)
 "ty" = (
 /obj/effect/turf_decal/siding/wood,
@@ -725,6 +871,12 @@
 /area/template_noop)
 "tD" = (
 /turf/open/floor/catwalk_floor/iron_dark,
+/area/template_noop)
+"tH" = (
+/obj/machinery/door/airlock/mining{
+	name = "Cargo Bay"
+	},
+/turf/open/floor/iron,
 /area/template_noop)
 "tO" = (
 /obj/effect/turf_decal/tile/brown{
@@ -771,7 +923,6 @@
 /obj/machinery/door/airlock/medical{
 	name = "Surgical A"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/white,
 /area/template_noop)
 "uy" = (
@@ -800,11 +951,22 @@
 	},
 /turf/open/floor/wood,
 /area/template_noop)
+"vp" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/turf/open/floor/iron/kitchen/diagonal,
+/area/template_noop)
 "vt" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
+/area/template_noop)
+"vM" = (
+/obj/effect/turf_decal/tile/dark_green{
+	dir = 8
+	},
+/turf/open/floor/iron/freezer,
 /area/template_noop)
 "vQ" = (
 /obj/effect/turf_decal/tile/blue/diagonal_centre,
@@ -832,7 +994,6 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Security Equipment"
 	},
-/obj/effect/mapping_helpers/airlock/access/any/security/general,
 /turf/open/floor/iron/dark,
 /area/template_noop)
 "wI" = (
@@ -840,6 +1001,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
+/area/template_noop)
+"wY" = (
+/obj/structure/kitchenspike,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/freezer,
 /area/template_noop)
 "xc" = (
 /obj/machinery/iv_drip,
@@ -851,8 +1017,6 @@
 /obj/machinery/door/airlock/external{
 	name = "External Walkway"
 	},
-/obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
-/obj/effect/mapping_helpers/airlock/access/any/service/crematorium,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
@@ -872,7 +1036,6 @@
 	name = "Chaplain's Quarters"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/chapel_office,
-/obj/effect/mapping_helpers/airlock/access/all/service/crematorium,
 /turf/open/floor/wood/tile,
 /area/template_noop)
 "xB" = (
@@ -883,6 +1046,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
+/obj/effect/landmark/start/warden,
 /turf/open/floor/iron,
 /area/template_noop)
 "xS" = (
@@ -931,12 +1095,30 @@
 "yG" = (
 /turf/open/floor/iron/white/smooth_edge,
 /area/template_noop)
+"yQ" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/secure_closet/freezer/kitchen{
+	req_access = null
+	},
+/turf/open/floor/iron/freezer,
+/area/template_noop)
 "yS" = (
 /obj/machinery/suit_storage_unit/captain,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/template_noop)
+"zc" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/secure_closet/freezer/fridge/open,
+/turf/open/floor/iron/freezer,
+/area/template_noop)
+"zr" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
 /area/template_noop)
 "zw" = (
 /obj/machinery/vending/wardrobe/medi_wardrobe,
@@ -972,6 +1154,15 @@
 	},
 /turf/open/floor/mineral/silver,
 /area/template_noop)
+"Al" = (
+/obj/machinery/griddle,
+/turf/open/floor/iron/kitchen/diagonal,
+/area/template_noop)
+"AL" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/landmark/start/security_officer,
+/turf/open/floor/iron/herringbone,
+/area/template_noop)
 "Bg" = (
 /obj/structure/window/spawner/east,
 /obj/structure/closet/secure_closet/armory1,
@@ -998,13 +1189,23 @@
 "BE" = (
 /turf/open/floor/iron/white,
 /area/template_noop)
+"BQ" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/template_noop)
 "Ce" = (
 /obj/structure/chair/office{
 	dir = 1
 	},
-/obj/effect/landmark/start/captain,
 /obj/effect/turf_decal/tile/dark_blue,
 /turf/open/floor/wood/tile,
+/area/template_noop)
+"Cj" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_y = 7
+	},
+/turf/open/floor/iron/kitchen/diagonal,
 /area/template_noop)
 "CC" = (
 /turf/open/floor/plating/airless,
@@ -1055,6 +1256,11 @@
 	},
 /turf/open/floor/iron,
 /area/template_noop)
+"Di" = (
+/obj/machinery/vending/modularpc,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron,
+/area/template_noop)
 "Dj" = (
 /obj/structure/window/spawner/east,
 /obj/structure/closet/secure_closet/armory3,
@@ -1067,6 +1273,16 @@
 /obj/structure/railing,
 /obj/item/clothing/glasses/hud/security,
 /turf/open/floor/iron/herringbone,
+/area/template_noop)
+"DH" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/obj/structure/table,
+/turf/open/floor/iron/cafeteria,
 /area/template_noop)
 "DP" = (
 /turf/open/floor/iron/white/smooth_edge{
@@ -1097,6 +1313,12 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
+/area/template_noop)
+"EN" = (
+/obj/effect/turf_decal/tile/dark_green{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
 /area/template_noop)
 "Fy" = (
 /obj/effect/turf_decal/siding/dark{
@@ -1144,9 +1366,16 @@
 /obj/item/soulstone/anybody/chaplain,
 /turf/open/floor/wood/tile,
 /area/template_noop)
+"Gn" = (
+/obj/effect/turf_decal/siding/wideplating_new/end,
+/turf/open/floor/iron/diagonal,
+/area/template_noop)
 "GD" = (
 /obj/effect/turf_decal/siding/wood/end,
 /turf/open/floor/carpet/red,
+/area/template_noop)
+"GN" = (
+/turf/open/floor/iron/kitchen/diagonal,
 /area/template_noop)
 "GQ" = (
 /obj/structure/closet/secure_closet/armory2,
@@ -1158,11 +1387,15 @@
 /obj/machinery/door/airlock/medical{
 	name = "Medbay Lobby"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "phalanxmedbaylobby"
 	},
 /turf/open/floor/iron/white,
+/area/template_noop)
+"Hb" = (
+/obj/machinery/vending/robotics,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron,
 /area/template_noop)
 "Hk" = (
 /obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
@@ -1236,6 +1469,13 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/catwalk_floor/iron,
 /area/template_noop)
+"IB" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/iron/cafeteria,
+/area/template_noop)
 "IV" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -1250,6 +1490,14 @@
 /obj/effect/turf_decal/tile/blue/diagonal_edge,
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/iron/white/diagonal,
+/area/template_noop)
+"Jt" = (
+/obj/machinery/door/firedoor,
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron,
 /area/template_noop)
 "Jz" = (
 /obj/effect/turf_decal/siding/wood/end{
@@ -1275,6 +1523,10 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/carpet/black,
 /area/template_noop)
+"La" = (
+/obj/machinery/processor,
+/turf/open/floor/iron/kitchen/diagonal,
+/area/template_noop)
 "Ld" = (
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 8
@@ -1283,6 +1535,24 @@
 	name = "Chapel"
 	},
 /turf/open/floor/iron/dark,
+/area/template_noop)
+"LR" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/door/airlock{
+	name = "Dormitory"
+	},
+/turf/open/floor/wood/large,
+/area/template_noop)
+"LZ" = (
+/obj/effect/turf_decal/tile/dark_green{
+	dir = 1
+	},
+/turf/open/floor/iron,
 /area/template_noop)
 "Ma" = (
 /turf/open/floor/catwalk_floor/iron,
@@ -1294,6 +1564,23 @@
 	},
 /turf/open/floor/mineral/silver,
 /area/template_noop)
+"Mm" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 11
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 7
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 2
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron,
+/area/template_noop)
 "Ms" = (
 /obj/structure/closet/secure_closet/warden,
 /obj/structure/railing,
@@ -1301,6 +1588,15 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
+/area/template_noop)
+"My" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/turf/open/floor/iron/cafeteria,
 /area/template_noop)
 "MN" = (
 /obj/structure/window/spawner/west,
@@ -1337,7 +1633,6 @@
 /obj/machinery/door/airlock/medical{
 	name = "Medbay Staff Hall"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/white,
 /area/template_noop)
 "Nk" = (
@@ -1358,7 +1653,6 @@
 /obj/structure/table/reinforced/titaniumglass,
 /obj/machinery/door/window/left/directional/east,
 /obj/machinery/door/window/left/directional/west{
-	req_access_txt = "ACCESS_MEDBAY";
 	name = "Pharmacy Desk"
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -1369,6 +1663,22 @@
 "Nv" = (
 /turf/open/floor/iron/dark,
 /area/template_noop)
+"NP" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/iron/cafeteria,
+/area/template_noop)
+"NQ" = (
+/obj/effect/turf_decal/tile/dark_green{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/template_noop)
 "NS" = (
 /obj/structure/chair/pew/left{
 	dir = 4
@@ -1378,22 +1688,36 @@
 "Ol" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/captain/double,
-/obj/effect/landmark/start/captain,
 /obj/structure/curtain/bounty,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/carpet/executive,
 /area/template_noop)
+"Om" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/template_noop)
 "OQ" = (
 /obj/machinery/door/airlock/command{
 	name = "Bridge"
 	},
-/obj/effect/mapping_helpers/airlock/access/any/command/general,
 /obj/effect/turf_decal/siding/thinplating_new/light{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
+/area/template_noop)
+"Pe" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 5
+	},
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/iron/cafeteria,
 /area/template_noop)
 "Pm" = (
 /obj/structure/chair/sofa/bench/right,
@@ -1403,12 +1727,35 @@
 /obj/machinery/chem_heater,
 /turf/open/floor/iron/smooth_edge,
 /area/template_noop)
+"PO" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron,
+/area/template_noop)
+"PV" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/template_noop)
 "Qa" = (
 /obj/machinery/button/massdriver{
 	pixel_x = 24
 	},
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/iron/dark/textured_large,
+/area/template_noop)
+"Qq" = (
+/obj/machinery/vending/engivend,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron,
+/area/template_noop)
+"QG" = (
+/obj/effect/turf_decal/tile/dark_green,
+/turf/open/floor/wood/tile,
 /area/template_noop)
 "QN" = (
 /obj/structure/sign/departments/telecomms/directional/north,
@@ -1444,6 +1791,10 @@
 	dir = 6
 	},
 /area/template_noop)
+"Rj" = (
+/obj/effect/landmark/start/security_officer,
+/turf/open/floor/catwalk_floor/iron,
+/area/template_noop)
 "Rt" = (
 /obj/structure/table/glass,
 /turf/open/floor/iron/smooth_edge{
@@ -1466,6 +1817,10 @@
 /obj/effect/turf_decal/tile/blue/diagonal_centre,
 /obj/effect/turf_decal/tile/blue/diagonal_edge,
 /turf/open/floor/iron/white/diagonal,
+/area/template_noop)
+"RK" = (
+/obj/effect/turf_decal/tile/green,
+/turf/open/floor/iron,
 /area/template_noop)
 "RT" = (
 /obj/structure/table/optable,
@@ -1499,11 +1854,16 @@
 /obj/machinery/door/airlock/medical{
 	name = "Medbay Staff Hall"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "phalanxmedbaylobby"
 	},
 /turf/open/floor/iron/kitchen/herringbone,
+/area/template_noop)
+"SS" = (
+/obj/effect/turf_decal/tile/dark_green{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
 /area/template_noop)
 "Tn" = (
 /obj/machinery/computer/crew{
@@ -1528,6 +1888,13 @@
 "TM" = (
 /obj/structure/chair/office/light,
 /turf/open/floor/carpet/blue,
+/area/template_noop)
+"TW" = (
+/obj/effect/turf_decal/siding/dark_green,
+/obj/machinery/door/airlock/freezer{
+	name = "Kitchen Coldroom"
+	},
+/turf/open/floor/iron/freezer,
 /area/template_noop)
 "TX" = (
 /obj/structure/table/optable,
@@ -1575,6 +1942,11 @@
 	dir = 1
 	},
 /turf/open/floor/wood/tile,
+/area/template_noop)
+"VC" = (
+/obj/machinery/vending/clothing,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron,
 /area/template_noop)
 "VE" = (
 /obj/structure/fluff/divine/conduit,
@@ -1639,6 +2011,11 @@
 	},
 /turf/open/floor/plating,
 /area/template_noop)
+"Xl" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/iron/freezer,
+/area/template_noop)
 "Xr" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -1688,8 +2065,6 @@
 /obj/machinery/door/airlock/external{
 	name = "External Walkway"
 	},
-/obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
-/obj/effect/mapping_helpers/airlock/access/any/service/crematorium,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -1700,7 +2075,6 @@
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Telecomms"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
 /turf/open/floor/iron/dark,
 /area/template_noop)
 "Zf" = (
@@ -1720,6 +2094,19 @@
 /obj/structure/railing,
 /turf/open/floor/iron/herringbone,
 /area/template_noop)
+"Zt" = (
+/obj/effect/turf_decal/tile/dark_green/opposingcorners{
+	dir = 1
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/iron/cafeteria,
+/area/template_noop)
+"ZG" = (
+/obj/effect/turf_decal/siding/wideplating_new/end{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/template_noop)
 "ZM" = (
 /obj/structure/chair/pew/left{
 	dir = 4
@@ -1735,7 +2122,6 @@
 /obj/machinery/door/airlock/medical{
 	name = "Surgical B"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/white,
 /area/template_noop)
 "ZW" = (
@@ -2116,10 +2502,10 @@ su
 su
 su
 su
-su
-su
-su
-su
+tz
+tz
+cn
+tz
 su
 su
 su
@@ -2136,22 +2522,22 @@ su
 su
 "}
 (13,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+cn
+cn
+tz
 su
 su
 su
@@ -2168,22 +2554,22 @@ su
 su
 "}
 (14,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+tz
+aj
+qI
+wY
+gK
+tz
+Cj
+cM
+cM
+vp
+gy
+La
+tz
+LZ
+cn
+tz
 su
 su
 su
@@ -2200,23 +2586,23 @@ su
 su
 "}
 (15,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+gf
+tz
+nX
+EN
+qI
+TW
+GN
+GN
+GN
+GN
+GN
+GN
+eP
+cn
+cn
+tz
+tz
 su
 su
 su
@@ -2233,22 +2619,22 @@ su
 "}
 (16,1,1) = {"
 su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+tz
+qI
+vM
+qI
+tz
+Al
+GN
+GN
+GN
+GN
+GN
+tz
+NQ
+cn
+cn
+tz
 su
 su
 su
@@ -2265,22 +2651,22 @@ su
 "}
 (17,1,1) = {"
 su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+tz
+zc
+Xl
+yQ
+tz
+kj
+GN
+tz
+pV
+pV
+pV
+tz
+cn
+cn
+cn
+tz
 su
 su
 su
@@ -2297,22 +2683,22 @@ su
 "}
 (18,1,1) = {"
 su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+tz
+tz
+tz
+tz
+tz
+tz
+qP
+tz
+jQ
+jQ
+jQ
+tz
+tz
+BQ
+BQ
+tz
 su
 su
 su
@@ -2328,23 +2714,23 @@ su
 su
 "}
 (19,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+gf
+tz
+cn
+cn
+rh
+cn
+cn
+PV
+zr
+zr
+zr
+zr
+zr
+tz
+cn
+cn
+tz
 su
 su
 su
@@ -2360,23 +2746,23 @@ su
 su
 "}
 (20,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+tz
+VC
+cn
+PO
+tz
+Om
+cn
+NP
+hO
+zr
+Zt
+gq
+IB
+Jt
+cn
+cn
+tz
 su
 su
 su
@@ -2392,27 +2778,27 @@ su
 su
 "}
 (21,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+qP
+Hb
+cn
+Mm
+tz
+cn
+cn
+DH
+gq
+zr
+Zt
+gq
+IB
+Jt
+cn
+cn
+tz
+tz
+tz
+tz
+tz
 su
 su
 su
@@ -2424,27 +2810,27 @@ su
 su
 "}
 (22,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+qP
+Di
+cn
+dx
+tz
+gD
+cn
+Pe
+fH
+My
+My
+My
+My
+tz
+cn
+cn
+cn
+BQ
+cn
+cn
+tz
 su
 su
 su
@@ -2456,27 +2842,27 @@ su
 su
 "}
 (23,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+tz
+Qq
+cn
+cn
+rh
+cn
+cn
+cn
+cn
+cn
+cn
+cn
 cn
 Yp
 cn
 cn
-su
-su
-su
-su
-su
+cn
+BQ
+cn
+cn
+tH
 su
 su
 su
@@ -2488,18 +2874,18 @@ su
 su
 "}
 (24,1,1) = {"
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+gf
+tz
+tz
+tz
+tz
+Om
+Ma
+Ma
+ZG
+Gn
+Ma
+Ma
 cn
 qP
 cn
@@ -2508,7 +2894,7 @@ tz
 tz
 tz
 tz
-su
+tz
 su
 su
 su
@@ -2522,16 +2908,16 @@ su
 (25,1,1) = {"
 su
 su
-su
-su
-su
-su
-su
-su
-su
-su
-su
-su
+qP
+tw
+cn
+RK
+cn
+cn
+cn
+cn
+cn
+cn
 cn
 Yp
 cn
@@ -2554,11 +2940,11 @@ su
 (26,1,1) = {"
 su
 su
-su
-su
-su
-su
-su
+tz
+tz
+LR
+tz
+tz
 tz
 tz
 tz
@@ -2586,11 +2972,11 @@ su
 (27,1,1) = {"
 su
 su
-su
-su
-su
-su
-su
+tz
+qN
+QG
+gh
+de
 tz
 In
 ih
@@ -2618,11 +3004,11 @@ su
 (28,1,1) = {"
 su
 su
-su
-su
-su
-su
-su
+tz
+eE
+gh
+SS
+hc
 tz
 yD
 ca
@@ -2649,7 +3035,7 @@ su
 "}
 (29,1,1) = {"
 su
-tz
+gf
 tz
 tz
 tz
@@ -2694,8 +3080,8 @@ nV
 tz
 tz
 tz
-cn
-cn
+BQ
+BQ
 tz
 tz
 tz
@@ -2735,7 +3121,7 @@ nc
 tz
 eu
 DP
-yi
+bQ
 yi
 iK
 tz
@@ -2874,8 +3260,8 @@ su
 (36,1,1) = {"
 qP
 dB
-Ma
-xU
+Rj
+AL
 Nv
 dQ
 tz
