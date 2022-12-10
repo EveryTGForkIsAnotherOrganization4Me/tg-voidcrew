@@ -4,3 +4,5 @@
 	desc = "A sign labelling an area where testing and development of nanites is performed."
 	icon = 'voidcrew/modules/nanites/icons/decals.dmi'
 	icon_state = "nanites"
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/departments/nanites, 32)
