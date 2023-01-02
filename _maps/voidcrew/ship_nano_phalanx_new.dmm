@@ -207,10 +207,6 @@
 /obj/effect/spawner/random/structure/crate,
 /turf/open/floor/plating,
 /area/template_noop)
-"eC" = (
-/obj/effect/turf_decal/tile/blue,
-/turf/open/floor/iron,
-/area/template_noop)
 "eD" = (
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/iron/dark,
@@ -562,7 +558,7 @@
 /area/template_noop)
 "ku" = (
 /obj/structure/sign/departments/nanites/directional/south,
-/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/dark_green,
 /turf/open/floor/iron,
 /area/template_noop)
 "kQ" = (
@@ -609,7 +605,7 @@
 /area/template_noop)
 "lP" = (
 /obj/structure/sign/departments/holy/directional/east,
-/turf/open/floor/iron/white/corner,
+/turf/open/floor/iron,
 /area/template_noop)
 "lS" = (
 /obj/structure/fluff/divine/conduit,
@@ -697,9 +693,6 @@
 /turf/open/floor/wood,
 /area/template_noop)
 "nF" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
 /obj/structure/table,
 /obj/item/nanite_remote{
 	pixel_y = 9;
@@ -711,6 +704,9 @@
 /obj/item/storage/box/disks_nanite{
 	pixel_y = 4;
 	pixel_x = -3
+	},
+/obj/effect/turf_decal/tile/dark_green{
+	dir = 8
 	},
 /turf/open/floor/iron/dark,
 /area/template_noop)
@@ -1046,6 +1042,9 @@
 /obj/machinery/door/airlock/mining{
 	name = "Cargo Bay"
 	},
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/template_noop)
 "tM" = (
@@ -1064,10 +1063,9 @@
 /turf/open/floor/plating,
 /area/template_noop)
 "tO" = (
-/obj/effect/turf_decal/tile/brown{
+/obj/effect/turf_decal/tile/dark_green{
 	dir = 1
 	},
-/obj/structure/chair/office,
 /turf/open/floor/iron/dark,
 /area/template_noop)
 "ub" = (
@@ -1083,22 +1081,18 @@
 	},
 /area/template_noop)
 "uc" = (
-/obj/effect/turf_decal/tile/blue/full,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/catwalk_floor/iron_white,
 /area/template_noop)
 "ui" = (
-/obj/effect/turf_decal/tile/blue/diagonal_centre,
 /obj/effect/turf_decal/tile/blue/diagonal_edge,
 /obj/structure/chair/office/light{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
 /turf/open/floor/iron/white/diagonal,
 /area/template_noop)
 "uo" = (
 /obj/structure/sign/departments/medbay/alt/directional/south,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
 /turf/open/floor/iron,
 /area/template_noop)
 "uq" = (
@@ -1160,8 +1154,11 @@
 /turf/open/floor/wood,
 /area/template_noop)
 "vk" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
 	},
 /turf/open/floor/iron/edge,
 /area/template_noop)
@@ -1171,7 +1168,7 @@
 /turf/open/floor/iron/kitchen/diagonal,
 /area/template_noop)
 "vt" = (
-/obj/effect/turf_decal/tile/brown{
+/obj/effect/turf_decal/tile/dark_green{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
@@ -1189,11 +1186,11 @@
 /turf/open/floor/iron/freezer,
 /area/template_noop)
 "vQ" = (
-/obj/effect/turf_decal/tile/blue/diagonal_centre,
 /obj/effect/turf_decal/tile/blue/diagonal_edge,
 /obj/structure/chair/office/light{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
 /turf/open/floor/iron/white/diagonal,
 /area/template_noop)
 "vV" = (
@@ -1850,10 +1847,9 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/template_noop)
 "KZ" = (
-/obj/effect/turf_decal/tile/purple{
+/turf/open/floor/iron/dark/corner{
 	dir = 8
 	},
-/turf/open/floor/iron,
 /area/template_noop)
 "La" = (
 /obj/machinery/processor,
@@ -2169,10 +2165,10 @@
 /turf/open/floor/iron/dark/diagonal,
 /area/template_noop)
 "Rg" = (
-/obj/effect/turf_decal/tile/brown,
 /obj/structure/chair/office{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/dark_green,
 /turf/open/floor/iron/dark,
 /area/template_noop)
 "Ri" = (
@@ -2263,9 +2259,13 @@
 /turf/open/floor/wood/tile,
 /area/template_noop)
 "ST" = (
-/turf/open/floor/iron/edge{
+/obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 4
 	},
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
+	},
+/turf/open/floor/iron,
 /area/template_noop)
 "SX" = (
 /obj/machinery/door/airlock/mining{
@@ -2274,7 +2274,12 @@
 /turf/open/floor/iron/textured_large,
 /area/template_noop)
 "Ti" = (
-/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/template_noop)
 "Tl" = (
@@ -2296,11 +2301,6 @@
 	dir = 8
 	},
 /turf/open/floor/iron/white/small,
-/area/template_noop)
-"To" = (
-/turf/open/floor/iron/white/corner{
-	dir = 4
-	},
 /area/template_noop)
 "Tx" = (
 /obj/effect/turf_decal/trimline/white/filled/warning{
@@ -3301,7 +3301,7 @@ cT
 vV
 Ti
 Ti
-cn
+Ti
 qP
 sK
 cn
@@ -3331,8 +3331,8 @@ Yp
 cn
 cT
 vV
-cn
-gD
+ST
+ST
 vk
 tH
 cn
@@ -3905,7 +3905,7 @@ Ii
 Vf
 Ma
 Ma
-eC
+cn
 tz
 tz
 tz
@@ -3935,8 +3935,8 @@ Xr
 tz
 tz
 Uy
-To
-ST
+cn
+cn
 lP
 Gj
 tz
